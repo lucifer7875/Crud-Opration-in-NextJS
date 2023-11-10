@@ -1,0 +1,29 @@
+.dateInput {
+  /* Add your desired CSS styles here */
+  /* For example: */
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.m10{
+  margin-top: 10px;
+  cursor: not-allowed;
+  background-color: #cccccc9a;
+  font-weight: 500;
+  text-align: start;
+}
+
+.container {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px; /* Adjust the size as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* To make it rounded */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow if needed */
+}
+.icon {
+  font-size: 24px; /* Adjust the font size as needed */
+}

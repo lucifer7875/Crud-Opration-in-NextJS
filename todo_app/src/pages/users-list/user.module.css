@@ -1,0 +1,38 @@
+/* styles.module.css */
+
+/* For the div element */
+.tableHeadindDiv {
+    border: 0 !important;
+    margin: 20px 10px 10px 10px;
+
+}
+
+/* For the h3 element */
+.tableHeadindDiv .tableHeading {
+
+    font-size: 20px !important;
+}
+
+
+.tableHeadindDiv .tableDiv {
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.25turn,
+            #a7df24 12.5%,
+            #4eeb109e 12.5%,
+            #e31bd2 12.5%,
+            #15e991 25%,
+            #fecf71 25%,
+            #fecf71 37.5%,
+            #f0776c 37.5%,
+            #f0776c 50%,
+            #db9dbe 50%,
+            #db9dbe 62.5%,
+            #c49cde 62.5%,
+            #c49cde 75%,
+            #669ae1 75%,
+            #669ae1 87.5%,
+            #62c2e4 87.5%,
+            #62c2e4);
+    border-image-slice: 1;
+    width: 100%;
+}

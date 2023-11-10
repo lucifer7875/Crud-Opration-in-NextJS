@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.rdt_TableBody>div:hover {
+  background-color: rgb(230, 230, 230)
+}
+
+.h-80vh{
+  height: 80vh;
+}
+/* .h-100vh{
+  height: 100;
+} */
+
+/*  Background Image */
+
+hr.type_5 {
+border: 0;
+height: 55px;
+background-image: url('https://www.formget.com/wp-content/uploads/2014/12/type_9.png');
+background-repeat: repeat-x;
+}
+
+.chart{
+  width: 549px !important;
+  height: 70vh !important;
+  }
+.custom-select {
+    padding: 3px;
+    border-radius: 8px;
+}
+.custom-select > div {
+  
+    background:  rgb(248 250 252)
+}
+.custom-select > div:active,
+.custom-select > div:hover{
+  border-color: black
+}
+ .required:after {
+    content:" *";
+    color: red;
+  }
